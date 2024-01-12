@@ -1,0 +1,174 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>BoraCodar - 03</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <section class="left-side">
+        <div class="left-box">
+          <div class="text">
+            <h1>Button types</h1>
+            <p>
+              Inside the layout, the buttons are meant to show important
+              actions. See the example below with all the types and properties.
+            </p>
+          </div>
+          <table>
+            <tr>
+              <th></th>
+              <th>Primary button</th>
+              <th>Secondary button</th>
+              <th>Tertiary button</th>
+              <th>Cursor</th>
+            </tr>
+            <tr>
+              <td align="center">Default</td>
+              <td align="center">
+                <button type="button" class="primary-btn">
+                  Default primary
+                </button>
+              </td>
+              <td align="center">
+                <button type="button" class="secondary-btn">
+                  Default secondary
+                </button>
+              </td>
+              <td align="center">
+                <button type="button" class="tertiary-btn">
+                  Default tertiary
+                </button>
+              </td>
+              <td align="center"><img src="assets/default_cursor.svg" /></td>
+            </tr>
+
+            <tr>
+              <td align="center">Hover</td>
+              <td align="center">
+                <button type="button" class="hover-primary">
+                  Hover primary
+                </button>
+              </td>
+              <td align="center">
+                <button type="button" class="hover-secondary">
+                  Hover secondary
+                </button>
+              </td>
+              <td align="center">
+                <button type="button" class="tertiary-btn">
+                  Hover tertiary
+                </button>
+              </td>
+              <td align="center"><img src="assets/default_cursor.svg" /></td>
+            </tr>
+            <tr>
+              <td align="center">Focus</td>
+              <td align="center">
+                <button type="button" class="primary-btn focus">
+                  Focus primary
+                </button>
+              </td>
+              <td align="center">
+                <button type="button" class="secondary-btn focus">
+                  Focus secondary
+                </button>
+              </td>
+              <td align="center">
+                <button type="button" class="tertiary-btn focus">
+                  Focus tertiary
+                </button>
+              </td>
+              <td align="center"><img src="assets/default_cursor.svg" /></td>
+            </tr>
+            <tr>
+              <td align="center">Disabled</td>
+              <td align="center">
+                <button type="button" class="primary-btn disabled">
+                  Disabled primary
+                </button>
+              </td>
+              <td align="center">
+                <button type="button" class="secondary-btn disabled">
+                  Disabled primary
+                </button>
+              </td>
+              <td align="center">
+                <button type="button" class="tertiary-btn disabled">
+                  Disabled tertiary
+                </button>
+              </td>
+              <td align="center"><img src="assets/disabled_cursor.svg" /></td>
+            </tr>
+            <tr>
+              <td align="center">Loading</td>
+              <td align="center">
+                <button type="button" class="primary-btn loading">
+                  <img src="assets/loading.svg" />Loading primary
+                </button>
+              </td>
+              <td align="center">
+                <button type="button" class="secondary-btn loading">
+                  <img src="assets/loading.svg" />Loading secondary
+                </button>
+              </td>
+              <td align="center">
+                <button type="button" class="tertiary-btn loading">
+                  <img src="assets/loading.svg" />Loading tertiary
+                </button>
+              </td>
+              <td align="center"><img src="assets/loading_cursor.svg" /></td>
+            </tr>
+            <tr>
+              <td align="center">Movable</td>
+              <td align="center">
+                <button type="button" class="primary-btn movable">
+                  <img src="assets/movable.svg" />Movable primary
+                </button>
+              </td>
+              <td align="center">
+                <button type="button" class="secondary-btn movable">
+                  <img src="assets/movable.svg" />Movable secondary
+                </button>
+              </td>
+              <td align="center">
+                <button type="button" class="tertiary-btn movable">
+                  <img src="assets/movable.svg" />Movable tertiary
+                </button>
+              </td>
+              <td align="center"><img src="assets/movable_cursor.svg" /></td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <section class="right-side">
+        <div class="right-box">
+          <div class="text">
+            <h1>Test the buttons</h1>
+            <p>
+              Interact with the buttons and watch their apperance and cursor
+              changing.
+            </p>
+          </div>
+          <div class="buttons">
+            <button type="button" class="primary-btn">Interact with me</button>
+            <button type="button" class="disabled-btn" disabled="disabled">
+              Interact with me
+            </button>
+            <button type="button" class="movable-btn">
+              <img src="assets/movable.svg" />
+              Interact with me
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
