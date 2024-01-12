@@ -22,7 +22,7 @@
   📃 Project preview
 </h2>
 
-![image](https://user-images.githubusercontent.com/47821731/221192580-9b613cf7-5334-4b02-a435-5ecc9feeb7f2.png)
+![image](https://github.com/marcoftmartins/boraCodar-03-buttons-and-cursors/assets/47821731/6f1fda8d-8be3-4193-a929-72fa40b5f35b)
 
 ---
 
